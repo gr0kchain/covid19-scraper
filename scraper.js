@@ -14,7 +14,7 @@ axios.get("https://sacoronavirus.co.za/").then(function(response) {
 	var $ = cheerio.load(response.data)
 
 	// parse and extract data points
-	var data = $('span[data-value]').scrape({ value: 'data-value' })
+	var data = $('span[data-value]').scrape('data-value')
 
 
 	// Setup payload object
