@@ -2,3 +2,9 @@ git clone https://github.com/gr0kchain/covid19-scraper
 cd covid19-scraper
 npm install
 node ./scraper.js
+
+
+Some other useful tools
+
+https://github.com/CSSEGISandData/COVID-19 ( Data Repository )
+https://github.com/pomber/covid19 (JSON converted for data repo)
