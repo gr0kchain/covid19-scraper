@@ -23,7 +23,7 @@ axios.get("https://sacoronavirus.co.za/").then(function(response) {
 	payload.concluded = data[0]
 	payload.positive = data[1]
 	payload.recoveries = data[2]
-	payload.deahts = data[3]
+	payload.deaths = data[3]
 
 	var payloadString = JSON.stringify(payload)
 
