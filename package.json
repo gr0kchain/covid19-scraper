@@ -13,6 +13,6 @@
     "artoo-js": "^0.4.0",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "node-notifier": "^6.0.0"
+    "node-notifier": "^8.0.1"
   }
 }
